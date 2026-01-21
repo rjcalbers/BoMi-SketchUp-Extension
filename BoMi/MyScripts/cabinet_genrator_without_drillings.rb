@@ -3,7 +3,7 @@ model = Sketchup.active_model
 sel = model.selection
 
 
-# 1. Standaardwaarden (in mm)
+# 1. Standaardwaarden (in mm) dus geen inches
 prompts = ["Hoogte (mm): ", "Breedte (mm): ", "Diepte (mm): ", "Dikte Hout (mm): ", "Dikte Achterwand (mm): "]
 defaults = [1000.0, 600.0, 400.0, 18.0, 6.0]
 input = UI.inputbox(prompts, defaults, "Stel de kastmaten in")
